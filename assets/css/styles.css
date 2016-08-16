@@ -192,7 +192,7 @@ pre code {
 .promo {
   background-image: url("../images/Ascension_Cropped.jpg");
   background-color: #cccccc;
-  max-width: 100%;
+  width: 100%;
   height: auto;
   background-position: 0% 100%;
   /*background-size: 100% 100%;*/
