@@ -10,7 +10,9 @@
 /* ======= Base ======= */
 
 #profilepic{
-  border-radius:100px;
+  border-radius:10px;
+  width: auto;
+  height: auto;
 }
 
 
