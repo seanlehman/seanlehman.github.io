@@ -204,7 +204,7 @@ pre code {
 }
 .promo .title {
   font-size: 98px;
-  color: #074f66;
+  color: #17baef;
   margin-top: 0;
 }
 .promo .title .highlight {
@@ -284,6 +284,49 @@ pre code {
   color: #074f66;
   font-size: 18px;
 }
+.about .img1 {
+  background-image: url("../images/clock.jpg");
+  height: 25em;
+  background-size: cover;
+  width: 100%;
+  background-position: 20% 40%;
+}
+.about .img2 {
+  background-image: url("../images/bucket.jpg");
+  height: 25em;
+  background-size: cover;
+  width: 100%;
+  background-position: 20% 40%;
+}
+.about .img3 {
+  background-image: url("../images/conveyor.jpg");
+  height: 25em;
+  background-size: cover;
+  width: 100%;
+  background-position: 20% 40%;
+}
+.about .img4 {
+  background-image: url("../images/clock.jpg");
+  height: 25em;
+  background-size: cover;
+  width: 100%;
+  background-position: 20% 40%;
+}
+.about .img5 {
+  background-image: url("../images/bucket.jpg");
+  height: 25em;
+  background-size: cover;
+  width: 100%;
+  background-position: 20% 40%;
+}
+.about .img6 {
+  background-image: url("../images/conveyor.jpg");
+  height: 25em;
+  background-size: cover;
+  width: 100%;
+  background-position: 20% 40%;
+}
+
 /* ======= Features Section ======= */
 .features {
   padding: 80px 0;
