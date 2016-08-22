@@ -305,12 +305,28 @@ pre code {
   width: 100%;
   background-position: 20% 40%;
 }
+
+.about .text1
+{
+  color: black;
+}
 .about .img4 {
   background-image: url("../images/clock.jpg");
   height: 25em;
   background-size: cover;
   width: 100%;
   background-position: 20% 40%;
+}
+
+.about .img4 a {
+  display: block;
+  height: 25em;
+  width: 100%;
+  outline: none;
+}
+
+.about .img4 a span{
+  display: none;
 }
 .about .img5 {
   background-image: url("../images/bucket.jpg");
