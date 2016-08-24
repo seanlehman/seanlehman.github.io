@@ -285,18 +285,20 @@ pre code {
   font-size: 18px;
 }
 .about .img1 {
-  background-image: url("../images/clock.jpg");
-  height: 25em;
+  background-image: url("../images/clock-girlsSquare.png");
+  height: 20em;
   background-size: cover;
   width: 100%;
   background-position: 20% 40%;
+  border: 1px solid black;
 }
 .about .img2 {
   background-image: url("../images/bucket.jpg");
-  height: 25em;
+  height: 20em;
   background-size: cover;
   width: 100%;
   background-position: 20% 40%;
+  border: 1px solid black;
 }
 .about .img3 {
   background-image: url("../images/conveyor.jpg");
@@ -304,6 +306,7 @@ pre code {
   background-size: cover;
   width: 100%;
   background-position: 20% 40%;
+  border: 1px solid black;
 }
 
 .about .text1
@@ -311,11 +314,12 @@ pre code {
   color: black;
 }
 .about .img4 {
-  background-image: url("../images/clock.jpg");
+  background-image: url("../images/schools.png");
   height: 25em;
   background-size: cover;
   width: 100%;
   background-position: 20% 40%;
+  border: 1px solid black;
 }
 
 .about .img4 a {
@@ -323,24 +327,27 @@ pre code {
   height: 25em;
   width: 100%;
   outline: none;
+  border: 1px solid black;
 }
 
 .about .img4 a span{
   display: none;
 }
 .about .img5 {
-  background-image: url("../images/bucket.jpg");
+  background-image: url("../images/SoccerGov.png");
   height: 25em;
   background-size: cover;
   width: 100%;
   background-position: 20% 40%;
+  border: 1px solid black;
 }
 .about .img6 {
-  background-image: url("../images/conveyor.jpg");
+  background-image: url("../images/RunGolf.png");
   height: 25em;
   background-size: cover;
   width: 100%;
   background-position: 20% 40%;
+  border: 1px solid black;
 }
 
 /* ======= Features Section ======= */
