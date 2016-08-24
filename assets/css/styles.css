@@ -309,11 +309,7 @@ pre code {
   border: 1px solid black;
 }
 
-.about .text1
-{
-  color: black;
-}
-.about .img4 {
+.ab.about .img4 {
   background-image: url("../images/schools.png");
   height: 25em;
   background-size: cover;
@@ -332,7 +328,11 @@ pre code {
 
 .about .img4 a span{
   display: none;
+}out .text1
+{
+  color: black;
 }
+
 .about .img5 {
   background-image: url("../images/SoccerGov.png");
   height: 25em;

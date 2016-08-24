@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="assets/plugins/prism/prism.css">
     <!-- Theme CSS -->  
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -185,7 +186,8 @@
                     <div class="icon-holder">
                     </div>
                     <div class="content">
-                        <a class="btn btn-cta-primary" href="https://github.com/seanlehman/C-Sharp-Projects/blob/master/02-Challenge%20Bronze.csx" target="_blank"><h3 class="portfolio-title">C# Silver Challenge</h3></a>
+                        <img class="portfolio-img" width="max-width" src="assets/images/GEMSSmart.png" alt="" position="center">
+                        <a class="btn btn-cta-primary" href="https://github.com/seanlehman/C-Sharp-Projects/blob/master/02-Challenge%20Bronze.csx" target="_blank"><h3 class="portfolio-title">ElevenNote App</h3></a>
                     </div><!--//content-->
                 </div><!--//item-->                
                 <div class="item col-md-4 col-sm-6 col-xs-12">
@@ -193,6 +195,7 @@
                         <!-- <i class="fa fa-code"></i> -->
                     </div>
                     <div class="content">
+                        <img class="portfolio-img" width="max-width" src="assets/images/Monster.png" alt="" position="center">
                         <a class="btn btn-cta-primary" href="https://codepen.io/Gonzero/pen/MepjVy" target="_blank"><h3 class="portfolio-title">HTML Monster Character</h3></a>
                     </div><!--//content-->
                 </div><!--//item-->
@@ -201,8 +204,10 @@
                         <!-- <i class="fa fa-code"></i> -->
                     </div>
                     <div class="content">
-                        <a class="btn btn-cta-primary" href="" target="_blank"><h3 class="portfolio-title">Future Project Here</h3></a>
+                        <img class="portfolio-img" width="max-width" src="assets/images/GEMSSmart.png" alt="" position="center">
+                        <a class="btn btn-cta-primary" href="http://gemsmart.azurewebsites.net/" target="_blank"><h3 class="portfolio-title">GEMSMart Store App</h3></a>
                     </div>
+                    <br><br><br><br>
 
                     <!--//content-->
                 </div>
@@ -211,7 +216,8 @@
                     <div class="icon-holder">
                     </div>
                     <div class="content">
-                        <a class="btn btn-cta-primary" href="https://github.com/seanlehman/C-Sharp-Projects/blob/master/02-Challenge%20Bronze.csx" target="_blank"><h3 class="portfolio-title">C# Silver Challenge</h3></a>
+                        <img class="portfolio-img" width="max-width" src="assets/images/GuessingGame.png" alt="" position="center">
+                        <a class="btn btn-cta-primary" href="http://guessinggame1.azurewebsites.net/" target="_blank"><h3 class="portfolio-title">Guessing Game</h3></a>
                     </div><!--//content-->
                 </div><!--//item-->                
                 <div class="item col-md-4 col-sm-6 col-xs-12">
@@ -219,7 +225,8 @@
                         <!-- <i class="fa fa-code"></i> -->
                     </div>
                     <div class="content">
-                        <a class="btn btn-cta-primary" href="https://codepen.io/Gonzero/pen/MepjVy" target="_blank"><h3 class="portfolio-title">HTML Monster Character</h3></a>
+                        <img class="portfolio-img" width="max-width" src="assets/images/GEMSSmart.png" alt="" position="center">
+                        <a class="btn btn-cta-primary" href="" target="_blank"><h3 class="portfolio-title">Contoso University Project</h3></a>
                     </div><!--//content-->
                 </div><!--//item-->
                 <div class="item col-md-4 col-sm-6 col-xs-12">
@@ -227,7 +234,8 @@
                         <!-- <i class="fa fa-code"></i> -->
                     </div>
                     <div class="content">
-                        <a class="btn btn-cta-primary" href="" target="_blank"><h3 class="portfolio-title">Future Project Here</h3></a>
+                        <img class="portfolio-img" width="max-width" src="assets/images/GEMSSmart.png" alt="" position="center">
+                        <a class="btn btn-cta-primary" href="" target="_blank"><h3 class="portfolio-title">Mvc Movie App</h3></a>
                     </div>
                     
                     <!--//content-->
@@ -277,24 +285,31 @@
             
                 <div class="block">
                     <h3 class="sub-title text-center">CSS</h3>
-                    <p>Code used for the opening bridge picture at the top of the page.</p>
+                    <p class="text-center">CSS code to add a hyperlink to the ElevenFifty Picture</p>
                 
                         <div class="code-block">
                     <!--//Use Prismjs - http://prismjs.com/index.html#basic-usage -->
                             <pre>
                             <code class="language-css">
-.promo {
-  background-image: url("../images/Ascension_Cropped.jpg");
-  background-color: #cccccc;
-  height: 100%;
-  width: 400px;
-  background-position: 0% 100%;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  color: white;
-  text-shadow: black 0.3em 0.3em 0.3em;
-/*  color: #fff;
-*/  padding-top: 300px;
+.about .img4 {
+  background-image: url("../images/schools.png");
+  height: 25em;
+  background-size: cover;
+  width: 100%;
+  background-position: 20% 40%;
+  border: 1px solid black;
+}
+
+.about .img4 a {
+  display: block;
+  height: 25em;
+  width: 100%;
+  outline: none;
+  border: 1px solid black;
+}
+
+.about .img4 a span{
+  display: none;
 }
     </code></pre>
                 </div><!--//code-block-->
@@ -302,42 +317,33 @@
             
             <div class="block">
                 <h3 class="sub-title text-center">C#</h3>
-                <p>Code showing an array of days</p>
+                <p class="text-center">Code showing a for and foreach loop iterating an array</p>
                 <div class="code-block">
                     <pre><code class="language-javascript">
-    jQuery(document).ready(function($) {
+    //Array of days with for loop
 
-    /* ======= Scrollspy ======= */
-    $('body').scrollspy({ target: '#header', offset: 400});
-    
-    /* ======= Fixed header when scrolled ======= */
-    
-    $(window).bind('scroll', function() {
-         if ($(window).scrollTop() > 50) {
-             $('#header').addClass('navbar-fixed-top');
-         }
-         else {
-             $('#header').removeClass('navbar-fixed-top');
-         }
-    });
-   
-    /* ======= ScrollTo ======= */
-    $('a.scrollto').on('click', function(e){
-        
-        //store hash
-        var target = this.hash;
-                
-        e.preventDefault();
-        
-        $('body').scrollTo(target, 800, {offset: -70, 'axis':'y', easing:'easeOutQuad'});
-        //Collapse mobile menu after clicking
-        if ($('.navbar-collapse').hasClass('in')){
-            $('.navbar-collapse').removeClass('in').addClass('collapse');
-        }
-        
-    });
+string[] days = new string[7] { "Monday", "Tuesday", "Wednesday", "Thursday", 
+"Friday", "Saturday", "Sunday" };
 
-});
+Console.WriteLine("The days of the week are:");
+
+for (int i = 0; i <= 6; i++)
+{
+ Console.WriteLine(days[i]);
+}
+
+
+//Array of days with foreach loop
+
+string[] days = new string[7] { "Monday", "Tuesday", "Wednesday", "Thursday",
+"Friday", "Saturday", "Sunday" };
+
+Console.WriteLine("The days of the week are:");
+
+foreach (string day in days) 
+{
+    Console.WriteLine(day);
+}
                         </code></pre>
                     </div><!--//code-block-->
                 </div><!--//block-->   
