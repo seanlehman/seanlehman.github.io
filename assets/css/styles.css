@@ -285,32 +285,32 @@ pre code {
   font-size: 18px;
 }
 .about .img1 {
-  background-image: url("../images/clock-girlsSquare.png");
+  background-image: url("../images/clock-girls.jpg");
   height: 20em;
   background-size: cover;
-  width: 100%;
+  width: 200px%;
   background-position: 20% 40%;
   border: 1px solid black;
 }
 .about .img2 {
   background-image: url("../images/bucket.jpg");
-  height: 20em;
+  height: 325px;
   background-size: cover;
-  width: 100%;
+  width: 350;
   background-position: 20% 40%;
   border: 1px solid black;
 }
 .about .img3 {
   background-image: url("../images/conveyor.jpg");
-  height: 25em;
+  height: 325px;
   background-size: cover;
-  width: 100%;
+  width: 350px;
   background-position: 20% 40%;
   border: 1px solid black;
 }
 
-.ab.about .img4 {
-  background-image: url("../images/schools.png");
+.about .img4 {
+  background-image: url("../images/Schools.jpg");
   height: 25em;
   background-size: cover;
   width: 100%;
@@ -334,18 +334,18 @@ pre code {
 }
 
 .about .img5 {
-  background-image: url("../images/SoccerGov.png");
-  height: 25em;
+  background-image: url("../images/SoccerGov.jpg");
+  height: 200px;
   background-size: cover;
-  width: 100%;
+  width: 200px;
   background-position: 20% 40%;
   border: 1px solid black;
 }
 .about .img6 {
-  background-image: url("../images/RunGolf.png");
-  height: 25em;
+  background-image: url("../images/RunGolf.jpg");
+  height: 325px;
   background-size: cover;
-  width: 100%;
+  width: 350px;
   background-position: 20% 40%;
   border: 1px solid black;
 }
