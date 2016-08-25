@@ -286,9 +286,9 @@ pre code {
 }
 .about .img1 {
   background-image: url("../images/Clock-Girls2.jpg");
-  height: 20em;
+  height: 325px;
   background-size: cover;
-  width: 200px%;
+  width: 350px;
   background-position: 20% 40%;
   border: 1px solid black;
 }
@@ -310,40 +310,42 @@ pre code {
 }
 
 .about .img4 {
-  background-image: url("../images/Schools.jpg");
-  height: 25em;
+  background-image: url("../images/Schools1.jpg");
+  height: 345px;
   background-size: cover;
-  width: 100%;
-  background-position: 20% 40%;
+  width: 340px;
+  position: center;
   border: 1px solid black;
 }
 
 .about .img4 a {
   display: block;
-  height: 25em;
-  width: 100%;
+  height: 345px;
+  width: 340px;
   outline: none;
+  position: center;
   border: 1px solid black;
 }
 
 .about .img4 a span{
   display: none;
-}out .text1
+}
+.about .text1
 {
   color: black;
 }
 
 .about .img5 {
-  background-image: url("../images/SoccerGov.jpg");
-  height: 200px;
+  background-image: url("../images/GovSoccer.jpg");
+  height: 345px;
   background-size: cover;
-  width: 200px;
+  width: 350px;
   background-position: 20% 40%;
   border: 1px solid black;
 }
 .about .img6 {
   background-image: url("../images/RunGolf.jpg");
-  height: 325px;
+  height: 345px;
   background-size: cover;
   width: 350px;
   background-position: 20% 40%;
